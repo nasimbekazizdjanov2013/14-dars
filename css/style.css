@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+footer{
+    background-image:url("../images/Rectangle\ 75\ \(1\).png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 96px;
+}
+
+.pad{
+    padding: 20px;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #E9BD8D;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer-follow{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E9BD8D;
+    padding-bottom: 20px;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+}
+.bottom-footer ul li:first-child{
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9BD8D;
+}
+.bottom-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-footer a{
+    font-size: 18px;
+    color: white;
+    display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.kam{
+    color: wheat;
+    font-size: 18px;
+}
+.kan{
+    color: white;
+    font-size: 18px;
+}
+
+.coke{
+    display: flex;
+    gap: 20px;
+}
+
+.data{
+    color: #737373;
+  
+    margin-top: 118px;
+}
